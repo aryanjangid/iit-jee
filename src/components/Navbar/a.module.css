@@ -1,0 +1,33 @@
+.navbar {
+    background: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    font-size: 20px;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 12px 16px;
+    font-weight: 900;
+}
+
+.navbar__item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10rem;
+}

@@ -1,0 +1,91 @@
+.homeHero {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(59, 204, 203, 0.71) 0%, #198ED2 100%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7rem;
+    padding-left: 20rem;
+}
+
+.button_search,
+.button_python {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.button_search {
+    background-color: white;
+    color: #018EDE;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.button_python {
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+}
+
+.left {
+    color: white;
+}
+
+.text {
+    width: 90%;
+}
+
+.enquiry,
+.chat {
+    position: absolute;
+}
+
+.title {
+    font-size: 52px;
+}
+
+.text {
+    font-size: 30px;
+}
+
+.button_search {
+    margin-right: 2rem;
+}
+
+.enquiry {
+    right: 0;
+    top: 5rem;
+    background-color: white;
+    transform: rotate(270deg);
+    transform-origin: bottom right;
+    padding: 0.5rem 2rem;
+    font-size: 32px;
+    cursor: pointer;
+    color: #018EDE
+}
+
+.chat {
+    bottom: 3rem;
+    right: 10rem;
+    cursor: pointer;
+}
+
+.chat img {
+    height: 80px;
+}
+
+.right img {
+    height: 800px;
+}
