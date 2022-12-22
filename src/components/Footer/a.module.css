@@ -1,3 +1,65 @@
-.footer {
-    width: 100%;
+.outerDiv{
+    background-color: #003D6A;
+    color:white;
+    padding: 2em 1em;
+}
+.compInfo{
+    /* display: flex; */
+    max-width: 20em;
+}
+
+.compTitles{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap:1em;
+}
+
+.contentDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menuDiv{
+    text-align: center;
+}
+.menuDiv h5{
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1em
+}
+
+.icons img{
+    cursor: pointer;
+}
+
+.endDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    height: 0.1em;
+    background-color: white;
+    width: 90%;
+    margin:1em;
+}
+
+@media only screen and (max-width: 600px){
+    .contentDiv{
+        flex-direction: column;
+        text-align: center;
+    }
+    .compTitles{
+        justify-content: center;
+    }
+    .contactDiv h2{
+        margin-bottom: 0;
+    }
 }
