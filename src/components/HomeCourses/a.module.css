@@ -1,3 +1,44 @@
-.courses {
-    width: 100%;
+.outerDiv{
+    padding: 1em 3em;
+}
+
+.contentDiv{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2em;
+}
+
+.headingDiv{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding:auto auto;
+}
+.headingDiv h1{
+    color:#5B5454;
+    white-space: nowrap;
+    font-size: 3rem;
+}
+.line{
+    width: 30%;
+    height: 0.3em;
+    background-color: #BFBFBF;
+    border-radius: 0.5em;
+}
+
+.subHeading{
+    max-width: 60em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin:auto
+}
+
+.coursesCard{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin:2em auto;
+    flex-wrap: wrap;
+    gap:1em
 }

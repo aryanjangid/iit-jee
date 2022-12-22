@@ -1,0 +1,44 @@
+.outerCardDiv{
+    position: relative;
+}
+.contentDiv{
+    border:2px solid #353535;
+    max-width: 20em;
+    min-height: 10em;
+    display:flex ;
+    align-items:flex-start;
+    justify-content:flex-start;
+    gap:2em;
+    padding: 0.5em 1em;
+    position: relative;
+    z-index: 100;
+    background-color: white;
+}
+img{
+    padding-top: 2em;
+}
+.hoverCard {
+    position: relative;
+    z-index: -1;
+    display: none;
+}
+
+.outerCardDiv:hover .contentDiv{
+    top:-1em; 
+    left:-1em;
+    transition-delay: 0.9s;
+    z-index: 100;
+    position: relative;
+}
+.outerCardDiv:hover .hoverCard{
+    height: 12em;
+    width: 23em;
+    background-color: #C0E7FF;
+    position:absolute;
+    z-index: -122;
+    top:-0.2em;
+    left:0;
+    opacity: 1;
+    border:2px solid #353535;
+    display: block;
+}
