@@ -1,10 +1,51 @@
 import React from 'react'
 import style from './a.module.css'
-import results from '../../assets/results.png'
+import poster from '../../assets/poster.png'
+import ResultCard from '../ResultCard/ResultCard'
+
+const ResultCardData = [
+  {
+    title:'IIT-JEE',
+    details:'When an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    src:poster,
+  },
+  {
+    title:'IIT-JEE',
+    details:'When an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    src:poster,
+  },
+  {
+    title:'IIT-JEE',
+    details:'When an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    src:poster,
+  },
+  {
+    title:'IIT-JEE',
+    details:'When an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    src:poster,
+  },
+  
+]
 
 const HomeResults = () => {
+
   return (
-    <img src={results} alt="" className={style.results} />
+    <div className={style.outerDiv}>
+      <div className={style.headingDiv}>
+          <div className={style.line}></div>
+          <h1>
+            Results
+          </h1>
+          <div className={style.line}></div>
+      </div>
+      <div className={style.resultCard}>
+        {ResultCardData.map((data)=>{
+          return(
+          <ResultCard title={data.title} details={data.details} src={data.src}/>
+          )
+        })}
+      </div>
+    </div>
   )
 }
 

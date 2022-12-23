@@ -1,3 +1,29 @@
-.results {
-    width: 100%;
+.outerDiv{
+    background-color: blue;
+    padding:2em 1em;
+}
+
+.headingDiv{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding:auto auto;
+}
+.headingDiv h1{
+    color:white;
+    white-space: nowrap;
+    font-size: 3rem;
+}
+.line{
+    width: 30%;
+    height: 0.3em;
+    background-color: #BFBFBF;
+    border-radius: 0.5em;
+}
+.resultCard{
+    display:flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap:2em;
 }

@@ -1,0 +1,24 @@
+.outerDiv{
+    max-width: 18em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+
+.imgDiv{
+    position: relative;
+    width: 100%;
+    height: 15em;
+}
+.imgDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    position: relative;
+    padding: 0;
+}

@@ -30,4 +30,52 @@
     align-items: center;
     position: absolute;
     right: 10rem;
+    transition: all 0.5s;
+}
+
+.ham {
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+    .right {
+        position: absolute;
+        flex-direction: column;
+        top: -210px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        background-color: rgba(254, 254, 254);
+        width: 100%;
+        height: fit-content;
+        padding: 2rem;
+        color:black
+    }
+
+    .logo {
+        width: fit-content;
+        cursor: pointer;
+    }
+
+    .navbar {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        cursor: default;
+    }
+
+    .ham {
+        display: block;
+        position: absolute;
+        right: 16px;
+        cursor: pointer;
+        height: fit-content;
+    }
+
+    .ham img {
+        padding: 0;
+    }
+}
+
+body {
+    overflow-x: hidden;
 }

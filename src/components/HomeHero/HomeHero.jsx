@@ -29,7 +29,7 @@ const HomeHero = () => {
         Admission Enquiry Form
       </div>
       <div className={style.chat}>
-        <img src={chat} alt="" />
+        <h1>Chat</h1>
       </div>
     </div>
   )
