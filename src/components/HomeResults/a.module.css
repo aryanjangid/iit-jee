@@ -1,6 +1,6 @@
 .outerDiv{
-    background-color: blue;
     padding:2em 1em;
+    padding-bottom: 5em;
 }
 
 .headingDiv{
@@ -17,7 +17,7 @@
 .line{
     width: 30%;
     height: 0.3em;
-    background-color: #BFBFBF;
+    background-color: #fff;
     border-radius: 0.5em;
 }
 .resultCard{

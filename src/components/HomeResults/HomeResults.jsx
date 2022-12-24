@@ -2,6 +2,7 @@ import React from 'react'
 import style from './a.module.css'
 import poster from '../../assets/poster.png'
 import ResultCard from '../ResultCard/ResultCard'
+import resultBackground from '../../assets/resultBackground.png'
 
 const ResultCardData = [
   {
@@ -30,7 +31,7 @@ const ResultCardData = [
 const HomeResults = () => {
 
   return (
-    <div className={style.outerDiv}>
+    <div className={style.outerDiv} style={{backgroundImage: `url(${resultBackground})`,}}>
       <div className={style.headingDiv}>
           <div className={style.line}></div>
           <h1>

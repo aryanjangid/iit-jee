@@ -10,9 +10,9 @@ const ResultCard = (props) => {
     </div>
     <div className={style.detials}>
         <h1>{props.title}</h1>
-        <h5>{props.details}</h5>
-        <div>
-            <h4>{viewMore}</h4>
+        <h5 className={style.description}>{props.details}</h5>
+        <div className={style.viewMoreButton}>
+            <h4 >{viewMore}</h4>
         </div>
     </div>
   </div>

@@ -22,3 +22,22 @@
     position: relative;
     padding: 0;
 }
+
+.detials h1{
+    color:#198ED2;
+    font-size:large
+}
+
+.description{
+    font-weight:400;
+    color:#5B5454;
+    padding: 0 1em;
+    margin:0;
+}
+.viewMoreButton h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #198ED2,
+            #3BCCCB);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
