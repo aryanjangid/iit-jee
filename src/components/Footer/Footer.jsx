@@ -16,17 +16,17 @@ const Footer = () => {
             <img src={logo} alt="" className={style.footer} />
             <h1>FIM</h1>
           </div>
-          <h5>
+          <h4>
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
-          </h5>
+          </h4>
         </div>
         <div className={style.menuDiv}>
           <h2>Menu</h2>
-          <h3>Home</h3>
-          <h3>About</h3>
-          <h3>Course</h3>
-          <h3>Blog</h3>
+          <h4>Home</h4>
+          <h4>About</h4>
+          <h4>Course</h4>
+          <h4>Blog</h4>
         </div>
         <div className={style.contactDiv}>
           <h2>Contact Us</h2>

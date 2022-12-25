@@ -18,11 +18,30 @@
     font-weight: 900;
 }
 
-.navbar__item {
-    padding: 16px 16px;
+.navbar_first_item {
     cursor: pointer;
     vertical-align: middle;
     font-weight: 600;
+    font-weight: bold;
+    margin: 16px 16px;
+}
+
+.navbar_first_item::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    left: 8px;
+    bottom: 0;
+}
+
+.navbar__item {
+    margin: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    font-weight: 600;
+    font-weight: normal;
 }
 
 .right {
@@ -48,7 +67,7 @@
         width: 100%;
         height: fit-content;
         padding: 2rem;
-        color:black
+        color: black
     }
 
     .logo {

@@ -24,8 +24,9 @@
 .menuDiv{
     text-align: center;
 }
-.menuDiv h5{
+.menuDiv h4{
     cursor: pointer;
+    font-weight: 400;
 }
 .icons{
     display: flex;

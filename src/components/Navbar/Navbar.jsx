@@ -15,7 +15,7 @@ const Navbar = () => {
         else {
             setSmall(true)
         }
-    }, [])
+    }, [width])
 
     return (
         <header className={style.navbar}>
@@ -25,7 +25,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className={style.right} style={{ top: `${small ? (open ? '0px' : '-310px') : '0px'}` }}>
-                <div className={style.navbar__item} style={{ color: 'black' }}>Home</div>
+                <div className={style.navbar_first_item}>Home</div>
                 <div className={style.navbar__item}>About</div>
                 <div className={style.navbar__item}>Courses</div>
                 <div className={style.navbar__item}>Blogs</div>
