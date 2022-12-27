@@ -7,7 +7,8 @@
     align-items: center;
     text-align: center;
     position: relative;
-    border-radius: 2em;
+    border-radius: 1em;
+    transition: transform .2s;
 }
 
 .imgDiv{
@@ -16,7 +17,7 @@
     height: auto;
     transition: transform .2s;
 }
-.imgDiv:hover {
+.outerDiv:hover {
     transform: scale(1.1); 
 }
 .imgDiv img{
@@ -33,16 +34,19 @@
     font-size:large
 }
 
+.detials p{
+    margin: 0;
+}
 .description{
     font-weight:400;
     color:#5B5454;
     padding: 0 1em;
-    margin:0;
+    margin-bottom:2em;
 }
-.viewMoreButton h4 {
+/* .viewMoreButton h4 {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to right, #198ED2,
             #3BCCCB);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-}
+} */

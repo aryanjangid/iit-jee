@@ -1,6 +1,7 @@
 .outerDiv{
     padding:2em 1em;
     padding-bottom: 5em;
+    margin:2em 0
 }
 
 .headingDiv{
@@ -26,4 +27,5 @@
     align-items: stretch;
     flex-wrap: wrap;
     gap:2em;
+    margin-top:4em;
 }
