@@ -52,15 +52,17 @@
 }
 
 .title {
-    font-size: 52px;
+    font-size: 3em;
 }
 
 .text {
-    font-size: 30px;
+    font-size: 1.4em;
 }
 
-.button_search {
-    margin-right: 2rem;
+.button{
+    display: flex;
+    gap:2em;
+    margin:3em 0;
 }
 
 .enquiry {
