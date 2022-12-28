@@ -6,32 +6,33 @@ import resultBackground from "../../assets/resultBackground.png";
 
 const ResultCardData = [
   {
-    title: "Rahul Sharma",
-    rank: "JEE AIR rank 2",
+    title: "Aniket",
+    rank: "AIIMS Rank 169*",
     details:
       "When an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    src: poster,
+    src: "https://drive.google.com/uc?export=view&id=1x24YynAdoOnOvlK0I004ToTGxrlAZCh2",
   },
   {
-    title: "Aditya kumar",
-    rank: "NEET AIR rank 1",
+    title: "Abhilasha Pravin Dangore",
+    rank: "JEE AIR rank 11912",
     details:
       "When an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    src: poster,
+      src: "https://drive.google.com/uc?export=view&id=1MFRpNMI6CnHHjvOML2zbYMN5D_eJOSa5",
   },
   {
-    title: "Sourabh Patil",
-    rank: "JEE AIR rank 10",
+    title: "Komal Jain",
+    rank: "NEET Rank 10800",
     details:
       "When an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    src: poster,
+      src: "https://drive.google.com/uc?export=view&id=19g50_LuG8UVLvH9tncw8Yh9kIjb2ZZ6T",
+    
   },
   {
-    title: "Ram Kumar",
-    rank: "JEE AIR rank 20",
+    title: "Pranjali Jain",
+    rank: "NEET Rank  660*",
     details:
       "When an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    src: poster,
+      src: "https://drive.google.com/uc?export=view&id=1WI_iFua-_ZrDQIGBP3wYlHmDHJlE9eNz",
   },
 ];
 

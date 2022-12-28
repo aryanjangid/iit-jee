@@ -13,7 +13,6 @@ const Footer = () => {
       <div className={style.contentDiv}>
         <div className={style.compInfo}>
           <div className={style.compTitles}>
-            <img src={logo} alt="" className={style.footer} />
             <h1>FIM</h1>
           </div>
           <h4>

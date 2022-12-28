@@ -40,13 +40,22 @@ const Slide = ({ stars, feedback, name, occupation }) => {
 
 const FeedBack = () => {
     const feedbacks = [
-        'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione voluptate quam quia deserunt tenetur aliquid cumque quasi fugiat. Cum suscipit iusto exercitationem unde incidunt provident illum quod maiores maxime cumque?'
+        'The teachers are really well qualified.The material provided is more than sufficient to achieve the success and score good ranks. Fim provides a very healthy and learning environment to study in the fim premises. The intensity of conduction of test are really good and it helped alot to learn it mistakes done in mock tests.Teachers are really very friendly and try to give individual attention to each and every student in the room. ',
+        'Fim made sure I get whatever was most important for me to crack the exam at the best possible time. Personal attention, regular tests and stunning faculty made everything a smooth and enjoyable experience. I enjoyed my time at Fim and never felt like I was preparing for something.',
+        'There are only three requirements to do great in any competitive exam :- 1. Getting concepts clear 2. Solving different types of questions3. Self study. In fim you will get every point covered. Your concepts will be cleared, you will have a good approach for every question and you will have enough time for self study.',
+        'Perfect place for neet and jee preparation as every subject is covered under one roof. Ideal place for people who whose home are far located since you can stay here all day and study..plus the test series you get here makes you confident enough for the main exam..and the teachers are so helpful to clear your every single doubt..top of all they provide you with every facility they promise about...',
+        'One of the Best Educational Institute in Nagpur. Well Experienced Teachers and their teaching method, also they are providing not only quantity but also Quality study material. Facilities Provided here are Very Excellent. ',
+        'One of the best tuitions for competitive exams. Even during the lockdown, they didn not fail to deliver and taught all topics perfectly. The faculty is very experienced and has a connect with the students. ',
+        'A Very good coaching with experienced faculties, regular study discussion, regular tests , carrier guidance, latest updates in study material, gives attention to every single student'
     ]
     const slides = [
-        <Slide stars={3.7} feedback={feedbacks[0]} name={'Awlad Hosain1'} occupation={'UI Designer'} />,
-        <Slide stars={4.7} feedback={feedbacks[0]} name={'Shanta Aktar1'} occupation={'Graphic Designer'} />,
-        <Slide stars={4.7} feedback={feedbacks[0]} name={'Shanta Aktar2'} occupation={'Graphic Designer'} />,
-        <Slide stars={3.7} feedback={feedbacks[0]} name={'Awlad Hosain2'} occupation={'UI Designer'} />
+        <Slide stars={5} feedback={feedbacks[0]} name={'Kiran Jagdish Katole'} occupation={'Shri vasantrao naik goverment medical clg,yavatmal'} />,
+        <Slide stars={4} feedback={feedbacks[1]} name={'Atharva Thorkar'} occupation={'IIT Kharagpur'} />,
+        <Slide stars={4} feedback={feedbacks[2]} name={'Anay Arjune '} occupation={'Gmc Nagpur'} />,
+        <Slide stars={5} feedback={feedbacks[3]} name={'PranjaliJain '} occupation={'Government Medical College Nagpur '} />,
+        <Slide stars={5} feedback={feedbacks[4]} name={'Shalom Vitesh Sonekar'} occupation={'Priyadarshini Bhagwati College of Engineering '} />,
+        <Slide stars={5} feedback={feedbacks[5]} name={'TM Satvik Pillay '} occupation={'VNIT Nagpur'} />,
+        <Slide stars={5} feedback={feedbacks[6]} name={'Aniket '} occupation={'AIIMS Nagpur'} />
     ]
     const [leftIndex, setLeftIndex] = useState(0)
     const [rightIndex, setRightIndex] = useState(1)

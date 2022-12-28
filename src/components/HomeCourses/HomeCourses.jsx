@@ -9,19 +9,19 @@ import CoursesCard from "../CoursesCard/CoursesCard";
 const courseData = [
   {
     heading:'JEE',
-    subHeading:'This is a great way to create great slogans for business Focus',
+    subHeading:'Click here to know more about our JEE courses',
     src:course1img,
     color:'#198ED2'
   },
   {
     heading:'NEET',
-    subHeading:'This is a great way to create great slogans for business Focus',
+    subHeading:'Click here to know more about our NEET courses',
     src:course2img,
     color:'#7B167D'
   },
   {
-    heading:'UPSC',
-    subHeading:'This is a great way to create great slogans for business Focus',
+    heading:'Foundation',
+    subHeading:'Click here to know more about our Foundation courses',
     src:course3img,
     color:'#007628'
   }
@@ -38,7 +38,7 @@ const HomeCourses = () => {
           <div className={style.line}></div>
         </div>
         <div className={style.subHeading}>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+          <p>FIM is committed to providing the best possible education and support for students preparing for the IIT JEE and NEET exams. Our courses are designed and taught by experienced professionals with a track record of success, and are tailored to meet the unique needs and goals of each individual student. We offer a wide range of study materials and resources, including comprehensive study guides, practice tests, and one-on-one tutoring sessions, to ensure that our students have everything they need to succeed.</p>
         </div>
         <div className={style.coursesCard}>
           {courseData.map((value)=>{
