@@ -2,62 +2,44 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 3rem;
+    color:white
+
 }
 
-.left img {
-    height: 250px;
-    margin: -50px;
+.container {
+    background: linear-gradient(90deg, #79E1FF 0%, #008EDE 100%);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
 }
 
-.left .first {
-    margin-top: -20px;
-}
-
-.right {
+.left {
     position: relative;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: top;
+    animation-timing-function: smooth;
+    overflow-y: hidden;
+    height: 25em;
 }
 
-.content {
-    color: white;
-    position: absolute;
-    top: 3rem;
-    left: 6rem;
-    font-size: 1.5rem;
-    font-weight: 100;
+@keyframes move {
+    0% {
+        bottom: -100px;
+    }
+
+    100% {
+        bottom: 100px;
+    }
 }
 
-@media screen and (max-width: 1000px) {
-    .HomeBulleton {
-        flex-direction: column;
-    }
-
-
-    .left img {
-        height: 100px;
-        margin: -10px;
-    }
-
-    .left .first {
-        margin-top: 30px;
-    }
-
-    .right {
-        width: 100%;
-        margin: 0 0;
-    }
-
-    .right img {
-        width: 100%;
-    }
-
-    .content {
-        font-size: 12px;
-        top: 2rem;
-        left: 4rem;
-    }
-
-}
-
-body {
-    overflow-x: hidden;
+.bullet {
+    position: relative;
+    color: black;
+    margin: 2rem 0;
+    font-size: 25px;
 }

@@ -33,7 +33,9 @@
     color:#198ED2;
     font-size:large
 }
-
+.detials{
+    margin:2em;
+}
 .detials p{
     margin: 0;
 }
